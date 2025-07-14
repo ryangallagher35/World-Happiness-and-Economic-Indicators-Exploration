@@ -1,10 +1,10 @@
 # World Happiness and Economic Indicators Explorer of the Post-COVID Pandemic Era
 _By: Ryan Gallagher_
 
-## Python Component 
-
-### Overview
+## Overview
 This project investigates the relationship between world happiness scores and an array of economic and social indicators from 2020 to 2023, the timeframe following the outbreak of the COVID-19 pandmenic. It employs data from the World Happiness Report and the World Bank’s World Development Indicators archive to analyze how indicators such as logged GDP per capita, healthcare expenditure, education expenditure, and internet usage influence national well-being. Such analysis is conducted in Python using a variety of machine learning and statistical techniques. Furthermore, results from such machine learning and statistical measures are stored in corresponding PDF files in the "Python Graphical Output" file of the repository. Moreover, the interactive Tableau story provides an interactive overview of the relationship between world happiness scores and such indicators and the performances of various machine learning models implemented in the study. 
+
+## Python Component 
 
 ### Data Wrangling
 In the data wrangling phase of this study, raw CSV files from the World Happiness Report and the World Bank are read into Pandas dataframes and a consistent structure is applied across all datasets. For the World Bank indicators, column names are standardized and reshaped to avoid naming conflicts during merging. Missing values are replaced with zeros for simplicity. The World Happiness data is similarly cleaned and merged by country name across all four years. Finally, the World Happiness and World Bank Indicator data are merged into a single master dataset to explore using various statistical and machine learning techniques in Pythob. Furthermore. a long-format version of the data is created to employ for Tableau usage. 
@@ -47,3 +47,5 @@ To capture non-linear relationships and interaction effects among variables, Ran
 
 #### Results
 In the Random Forest importances bar charts, it is evident that social support is the most significant factor contributing to happiness each year by an overwhelming margin. On a similar note, it is clear that logged GDP per capita is the second most important factor contributing to happiness. Other significant factors include freedom to make life choices, healthy life expectancy, and internet users. Additional analysis of the relationship between happiness score and various indicators is conducted in Tableau, using these findings as a basis. 
+
+## Tableau Component
