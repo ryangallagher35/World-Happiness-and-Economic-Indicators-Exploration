@@ -49,3 +49,27 @@ To capture non-linear relationships and interaction effects among variables, Ran
 In the Random Forest importances bar charts, it is evident that social support is the most significant factor contributing to happiness each year by an overwhelming margin. On a similar note, it is clear that logged GDP per capita is the second most important factor contributing to happiness. Other significant factors include freedom to make life choices, healthy life expectancy, and internet users. Additional analysis of the relationship between happiness score and various indicators is conducted in Tableau, using these findings as a basis. 
 
 ## Tableau Component
+
+### Overview 
+<img width="1920" height="981" alt="Screenshot 2025-07-14 125604" src="https://github.com/user-attachments/assets/1aaf9340-ea50-47e5-81f5-23a3baa7d2c3" />
+
+
+### Country Profile 
+<img width="1920" height="981" alt="Screenshot 2025-07-14 125614" src="https://github.com/user-attachments/assets/c2dac319-3c67-431b-859b-a283fce321a8" />
+
+
+### Top/Bottom 10 Countries: Average Happiness Score
+<img width="1920" height="985" alt="Screenshot 2025-07-14 125623" src="https://github.com/user-attachments/assets/661f19dc-4492-4c59-a7d2-14fb604ae193" />
+
+
+### Happiness Score v. Various Indicators 
+<img width="1920" height="989" alt="Screenshot 2025-07-14 125634" src="https://github.com/user-attachments/assets/6d271044-1659-4ec3-9767-703a7c7b0389" />
+
+
+### ANN Performance 
+<img width="1920" height="981" alt="Screenshot 2025-07-14 125641" src="https://github.com/user-attachments/assets/f04d3b88-e048-45c2-9c67-bfb8fdd963d6" />
+
+
+### Linear Regression Results
+<img width="1920" height="981" alt="Screenshot 2025-07-14 125648" src="https://github.com/user-attachments/assets/a89e2162-16fc-4643-8e6e-d2aed29eb937" />
+
