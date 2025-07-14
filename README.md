@@ -76,10 +76,15 @@ The Top/Bottom 10 Countries: Average Happiness Score dashboard displays two bar 
 
 In the Happiness Score v. Various Indicators dashboard, four scatter plots are generated to help visualize correlation strengths between average happiness score and average social support (R^2 value of 0.67), average logged GDP per capita (R^2 of 0.69), average healthy life expectancy (R^2 of 0.62), and average internet users (R^2 of 0.54). These features were chosen based on the general highest importance ratings obtained from the Random Forest bar charts during Python analysis. 
 
+
+
 ### ANN Performance 
 <img width="1920" height="981" alt="Screenshot 2025-07-14 125641" src="https://github.com/user-attachments/assets/f04d3b88-e048-45c2-9c67-bfb8fdd963d6" />
 
+The ANN Performance dashboard displays two bar charts: The first displays the average mean absolute error values each year and the second displays actual vs. predicted happiness scores for a given country in a given year. Two dropdown filters are employed allowing the user to adjust the second bar chart for a given country in a given year.
 
+
+ 
 ### Linear Regression Results
 <img width="1920" height="981" alt="Screenshot 2025-07-14 125648" src="https://github.com/user-attachments/assets/a89e2162-16fc-4643-8e6e-d2aed29eb937" />
 
