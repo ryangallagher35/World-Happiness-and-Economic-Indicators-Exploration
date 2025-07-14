@@ -1,6 +1,6 @@
 # By: Ryan Gallagher 
 # World Happiness and Economic Indicators Explorer
-# World Bank Indicators Data Wrangling
+# Merge Data Sets
 
 # Library importing and management. 
 import pandas as pd 
