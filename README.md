@@ -1,4 +1,4 @@
-# World Happiness and Economic Indicators Explorer of the Post-COVID Pandemic Era
+# World Happiness and Economic Indicators Exploration of the Post-COVID Pandemic Era
 _By: Ryan Gallagher_
 
 <img width="98" height="28" alt="image" src="https://github.com/user-attachments/assets/f8203909-a637-42b3-a8ad-2a597a504f39" />
