@@ -25,9 +25,14 @@ In a comprehensive overview of the corrleation heatmaps for each year, unemploym
 
 ### KMeans Clustering and PCA
 #### Methodology 
-Foremost, the optimal number of clusters is determined for each year using the elbow method, which plots the inertia values (within-cluster sum of squares) across a range of possible cluster counts. Following analysis of the elbow charts, Four clusters are selected as the optimal solution across all years. These elbow charts can be found in "KMeans PCA Elbow Charts.pdf" in the "Python Graphical Input" file of the repository. 
+Foremost, the optimal number of clusters is determined for each year using the elbow method, which plots the inertia values (within-cluster sum of squares) across a range of possible cluster counts. Following analysis of the elbow charts, 4 clusters are selected as the optimal solution across all years. These elbow charts can be found in "KMeans PCA Elbow Charts.pdf" in the "Python Graphical Input" file of the repository. 
 
 Once clustering is complete, Principal Component Analysis is applied to reduce the dimensionality of the dataset to two principal components, allowing for clear visualizations of the cluster structures. These PCA cluster charts can be found in "KMeans PCA Clusters.pdf" in the "Python Graphical Input" file of the repository. 
+
+#### Results 
+As aforemetioned, upon constructing the elbow charts for each year, it is evident that 4 clusters is optimal, as an "elbow" point occurs when k = 4. 
+
+
 
 ### Linear Regression
 #### Methodology
