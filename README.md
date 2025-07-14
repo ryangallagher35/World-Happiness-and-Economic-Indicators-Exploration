@@ -1,6 +1,13 @@
 # World Happiness and Economic Indicators Explorer of the Post-COVID Pandemic Era
 _By: Ryan Gallagher_
 
+<img width="98" height="28" alt="image" src="https://github.com/user-attachments/assets/f8203909-a637-42b3-a8ad-2a597a504f39" />
+<img width="139" height="28" alt="image" src="https://github.com/user-attachments/assets/c033112a-155b-49fe-8f46-666843d3ca9b" />
+<img width="98" height="28" alt="image" src="https://github.com/user-attachments/assets/c18164e5-c630-493e-a987-0bb809f6a926" />
+<img width="90" height="28" alt="image" src="https://github.com/user-attachments/assets/c2ba5563-945b-4036-9c1e-09ae5dfb6c70" />
+<img width="109" height="28" alt="image" src="https://github.com/user-attachments/assets/9d38b637-730d-4377-b693-3449464f3408" />
+<img width="84" height="28" alt="image" src="https://github.com/user-attachments/assets/b4da81c9-8880-402b-8c96-b5b3ef2a8648" />
+
 ## Overview
 This project investigates the relationship between world happiness scores and an array of economic and social indicators from 2020 to 2023, the timeframe following the outbreak of the COVID-19 pandmenic. It employs data from the World Happiness Report and the World Bank’s World Development Indicators archive to analyze how indicators such as logged GDP per capita, healthcare expenditure, education expenditure, and internet usage influence national well-being. Such analysis is conducted in Python using a variety of machine learning and statistical techniques. Furthermore, results from such machine learning and statistical measures are stored in corresponding PDF files in the "Python Graphical Output" file of the repository. Moreover, the interactive Tableau story provides an interactive overview of the relationship between world happiness scores and such indicators and the performances of various machine learning models implemented in the study. 
 
