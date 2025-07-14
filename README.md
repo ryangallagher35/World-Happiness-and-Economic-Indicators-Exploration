@@ -61,7 +61,9 @@ In the Overview dashboard, a chloropleth map is employed to show the happiness s
 The Country Profile dashboard displays two line charts: The first displays happiness score each year while the other displays the values of social and economic trends each year. Moreover, KPI cards are displayed below the line charts to state the value of each social, economic, and happiness feature for a selected year. Lastly, each dashboard element is adjusted based on the country selection of choice. 
 
 ### Top/Bottom 10 Countries: Average Happiness Score
-<img width="1920" height="985" alt="Screenshot 2025-07-14 125623" src="https://github.com/user-attachments/assets/661f19dc-4492-4c59-a7d2-14fb604ae193" />
+<img width="1920" height="1001" alt="Screenshot 2025-07-14 134750" src="https://github.com/user-attachments/assets/c2e08d3c-e308-4107-9183-a2c9743e41cb" />
+
+The Top/Bottom 10 Countries: Average Happiness Score dashboard displays two bar charts: The first displays the top 10 countries by happiness score and the second displays the bottom 10 countries by happiness score. Based on the bar chart, it is evident that the happiest country (by happiness score) is Finland while the least happy county is Afghanistan. 
 
 
 ### Happiness Score v. Various Indicators 
