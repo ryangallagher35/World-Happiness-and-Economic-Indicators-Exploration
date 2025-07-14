@@ -55,10 +55,14 @@ In the Random Forest importances bar charts, it is evident that social support i
 
 In the Overview dashboard, a chloropleth map is employed to show the happiness score in countries where metrics were obtained. A page is assigned to each year to visualize display how happiness scores changed from 2020- 2023. Based on the chloropleth map, it is evident that the highest rates of happiness reside in North America, Australia, and the United Kingdom. Furthermore, KPI cards are displayed below to highlight key takeways. For instance, the average world happiness score from 2020-2023 is 5.69. Furthermore, Finland is the happiest country while China is the country with the most growth in happiness score, on average. 
 
+
+
 ### Country Profile 
 <img width="1920" height="975" alt="Screenshot 2025-07-14 133651" src="https://github.com/user-attachments/assets/4ecf3414-a123-4033-a834-61f1b1f68da8" />
 
 The Country Profile dashboard displays two line charts: The first displays happiness score each year while the other displays the values of social and economic trends each year. Moreover, KPI cards are displayed below the line charts to state the value of each social, economic, and happiness feature for a selected year. Lastly, each dashboard element is adjusted based on the country selection of choice. 
+
+
 
 ### Top/Bottom 10 Countries: Average Happiness Score
 <img width="1920" height="1001" alt="Screenshot 2025-07-14 134750" src="https://github.com/user-attachments/assets/c2e08d3c-e308-4107-9183-a2c9743e41cb" />
@@ -66,9 +70,11 @@ The Country Profile dashboard displays two line charts: The first displays happi
 The Top/Bottom 10 Countries: Average Happiness Score dashboard displays two bar charts: The first displays the top 10 countries by happiness score and the second displays the bottom 10 countries by happiness score. Based on the bar chart, it is evident that the happiest country (by happiness score) is Finland while the least happy county is Afghanistan. 
 
 
+
 ### Happiness Score v. Various Indicators 
 <img width="1920" height="989" alt="Screenshot 2025-07-14 125634" src="https://github.com/user-attachments/assets/6d271044-1659-4ec3-9767-703a7c7b0389" />
 
+In the Happiness Score v. Various Indicators dashboard, four scatter plots are generated to help visualize correlation strengths between average happiness score and average social support (R^2 value of 0.67), average logged GDP per capita (R^2 of 0.69), average healthy life expectancy (R^2 of 0.62), and average internet users (R^2 of 0.54). These features were chosen based on the general highest importance ratings obtained from the Random Forest bar charts during Python analysis. 
 
 ### ANN Performance 
 <img width="1920" height="981" alt="Screenshot 2025-07-14 125641" src="https://github.com/user-attachments/assets/f04d3b88-e048-45c2-9c67-bfb8fdd963d6" />
