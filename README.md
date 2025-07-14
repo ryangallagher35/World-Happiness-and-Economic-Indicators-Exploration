@@ -53,6 +53,7 @@ In the Random Forest importances bar charts, it is evident that social support i
 ### Overview 
 <img width="1920" height="981" alt="Screenshot 2025-07-14 125604" src="https://github.com/user-attachments/assets/1aaf9340-ea50-47e5-81f5-23a3baa7d2c3" />
 
+In the Overview Dashboard, a chloropleth map is employed to show the happiness score in countries where metrics were obtained. A page is assigned to each year to visualize display how happiness scores changed from 2020- 2023. Based on the chloropleth map, it is evident that the highest rates of happiness reside in North America, Australia, and the United Kingdom. Furthermore, KPI cards are displayed below to highlight key takeways. For instance, the average world happiness score from 2020-2023 is 5.69. Furthermore, Finland is the happiest country while China is the country with the most growth in happiness score, on average. 
 
 ### Country Profile 
 <img width="1920" height="981" alt="Screenshot 2025-07-14 125614" src="https://github.com/user-attachments/assets/c2dac319-3c67-431b-859b-a283fce321a8" />
