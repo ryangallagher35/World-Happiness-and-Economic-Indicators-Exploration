@@ -13,9 +13,15 @@ In the data wrangling phase of this study, raw CSV files from the World Happines
 #### Methodology
 Artificial Neural Networks are employed to predict the happiness score for each year using the available economic and social indicators. The input features include Logged GDP per capita, social support, life expectancy, freedom of choice, generosity, perception of corruption, internet usage, education and healthcare expenditure, unemployment rate, and urban population percentage (in agglomerations of over 1 million people). The data is standardized before training a Multi-Layer Perceptron with two hidden layers. After training the network, predictions are made and compared against actual happiness scores. The mean absolute error is calculated for each year and the performance trends are visualized in a bar chart to evaluate the model’s effectiveness. Such results can be found in "ANN_Error_Graph.pdf" in the Python Graphical Output file of the repository. 
 
+#### Results 
+Per the results of the ANN mean absolute error bar chart, the model performance ranking (from most effective to least effective) is as follows: 2022 ANN model (MAE of 0.142), 2021 ANN model (MAE of 0.164), 2022 ANN model (MAE of 0.167), 2023 ANN model (MAE of 0.188). 
+
 ### Correlation Heatmap
 #### Methodology
 To explore the strength and direction of relationships between the happiness score and its respective social and economic indicators, a correlation matrix is computed for each year and visualized as a heatmap using  the Seaborn data visualization library. These heatmaps provide a quick glance of the strength of correlation between each indicator and happiness, revealing potential patterns or redundancies in the dataset. These correlation heatmaps can be found in "Correlation Heatmaps.pdf" of the "Python Graphical Input" file of the repository.
+
+#### Results 
+In a comprehensive overview of the corrleation heatmaps for each year, unemployment rate and perception of corruption harbor negative relationships with happiness score. Thus, it can be inferred that as unemployment rate and perception of corruption increase increase, happiness score decreases, which intuitively makes sense. Furthermore, per the correlation heatmaps, generosity has a negligible correlation with happiness score. Lastly, all other indicators (Logged GDP per capita, social support, healthy life expectancy, freedom to make life choices, internet users, education expenditure, healthcare expenditure, and population in urban areas) harbor positive correlations with happiness score. Thus, it can be inferred that as the rates of these indicators increase, happiness score increases, which intuitively makes sense. 
 
 ### KMeans Clustering and PCA
 #### Methodology 
