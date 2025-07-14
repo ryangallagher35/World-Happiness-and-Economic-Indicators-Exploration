@@ -81,10 +81,18 @@ In the Happiness Score v. Various Indicators dashboard, four scatter plots are g
 ### ANN Performance 
 <img width="1920" height="981" alt="Screenshot 2025-07-14 125641" src="https://github.com/user-attachments/assets/f04d3b88-e048-45c2-9c67-bfb8fdd963d6" />
 
-The ANN Performance dashboard displays two bar charts: The first displays the average mean absolute error values each year and the second displays actual vs. predicted happiness scores for a given country in a given year. Two dropdown filters are employed allowing the user to adjust the second bar chart for a given country in a given year.
+The ANN Performance dashboard displays two bar charts: The first displays the average mean absolute error values each year and the second displays actual vs. predicted happiness scores for a given country in a given year. Two dropdown filters are employed allowing the user to adjust the second bar chart for a given country in a given year. 
 
 
  
 ### Linear Regression Results
-<img width="1920" height="981" alt="Screenshot 2025-07-14 125648" src="https://github.com/user-attachments/assets/a89e2162-16fc-4643-8e6e-d2aed29eb937" />
+<img width="1920" height="992" alt="Screenshot 2025-07-14 142131" src="https://github.com/user-attachments/assets/47fd2b8f-4902-4114-abb1-c373bc93d5a7" />
+
+In the Linear Regression Results dashboard, multiple elements are depicted to display relevant findings. 
+
+Foremost, the Linear Regression: Model Performance Over Time bar chart displays the performances of each model based on average R^2 value each year. In the context of this study, the R^2 value quantifies the extent to which the variation in happiness score can be explained by the array of social and economic factors. Based on the bar chart, it is evident that the 2020 linear regression model performed the worst while the 2023 linear regression model performed the best. Since the range of R^2 values for the linear regression lies between (0.80, 0.86), it is evident that the social and economic indicators explain a significant proportion of variability in happiness score.  
+
+Next, the Linear Regression: Values of Coefficients Over Time display changes in the value of coefficients corresponding to each social and economic indicator each year. Users are allowed to select as many indicators as they wish from the dropdown menu for graphical display. 
+
+Lastly, the Linear Regression: Coefficient Highlight Table displays the value of each coefficient corresponding to each social and economic indicator each year. Furthermore, each coefficient value is color coded to help visualize its magnitude and direction. 
 
