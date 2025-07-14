@@ -53,11 +53,12 @@ In the Random Forest importances bar charts, it is evident that social support i
 ### Overview 
 <img width="1920" height="981" alt="Screenshot 2025-07-14 125604" src="https://github.com/user-attachments/assets/1aaf9340-ea50-47e5-81f5-23a3baa7d2c3" />
 
-In the Overview Dashboard, a chloropleth map is employed to show the happiness score in countries where metrics were obtained. A page is assigned to each year to visualize display how happiness scores changed from 2020- 2023. Based on the chloropleth map, it is evident that the highest rates of happiness reside in North America, Australia, and the United Kingdom. Furthermore, KPI cards are displayed below to highlight key takeways. For instance, the average world happiness score from 2020-2023 is 5.69. Furthermore, Finland is the happiest country while China is the country with the most growth in happiness score, on average. 
+In the Overview dashboard, a chloropleth map is employed to show the happiness score in countries where metrics were obtained. A page is assigned to each year to visualize display how happiness scores changed from 2020- 2023. Based on the chloropleth map, it is evident that the highest rates of happiness reside in North America, Australia, and the United Kingdom. Furthermore, KPI cards are displayed below to highlight key takeways. For instance, the average world happiness score from 2020-2023 is 5.69. Furthermore, Finland is the happiest country while China is the country with the most growth in happiness score, on average. 
 
 ### Country Profile 
-<img width="1920" height="981" alt="Screenshot 2025-07-14 125614" src="https://github.com/user-attachments/assets/c2dac319-3c67-431b-859b-a283fce321a8" />
+<img width="1920" height="975" alt="Screenshot 2025-07-14 133651" src="https://github.com/user-attachments/assets/4ecf3414-a123-4033-a834-61f1b1f68da8" />
 
+The Country Profile dashboard displays two line charts: The first displays happiness score each year while the other displays the values of social and economic trends each year. Moreover, KPI cards are displayed below the line charts to state the value of each social, economic, and happiness feature for a selected year. Lastly, each dashboard element is adjusted based on the country selection of choice. 
 
 ### Top/Bottom 10 Countries: Average Happiness Score
 <img width="1920" height="985" alt="Screenshot 2025-07-14 125623" src="https://github.com/user-attachments/assets/661f19dc-4492-4c59-a7d2-14fb604ae193" />
