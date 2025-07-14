@@ -11,10 +11,10 @@ In the data wrangling phase of this study, raw CSV files from the World Happines
 
 ### Artificial Neural Networks 
 #### Methodology
-Artificial Neural Networks are employed to predict the happiness score for each year using the available economic and social indicators. The input features include Logged GDP per capita, social support, life expectancy, freedom of choice, generosity, perception of corruption, internet usage, education and healthcare expenditure, unemployment rate, and urban population percentage (in agglomerations of over 1 million people). The data is standardized before training a Multi-Layer Perceptron with two hidden layers. After training the network, predictions are made and compared against actual happiness scores. The mean absolute error is calculated for each year and the performance trends are visualized in a bar chart to evaluate the model’s effectiveness. Such results can be found in "ANN_Error_Graph.pdf" in the Python Graphical Output file of the repository. 
+Artificial neural networks are employed to predict the happiness score for each year using the available economic and social indicators. The input features include Logged GDP per capita, social support, life expectancy, freedom of choice, generosity, perception of corruption, internet usage, education and healthcare expenditure, unemployment rate, and urban population percentage (in agglomerations of over 1 million people). The data is standardized before training a Multi-Layer Perceptron with two hidden layers. After training the network, predictions are made and compared against actual happiness scores. The mean absolute error is calculated for each year and the performance trends are visualized in a bar chart to evaluate the model’s effectiveness. Such results can be found in "ANN_Error_Graph.pdf" in the Python Graphical Output file of the repository. 
 
 #### Results 
-Per the results of the ANN mean absolute error bar chart, the model performance ranking (from most effective to least effective) is as follows: 2022 ANN model (MAE of 0.142), 2021 ANN model (MAE of 0.164), 2022 ANN model (MAE of 0.167), 2023 ANN model (MAE of 0.188). 
+Per the results of the ANN mean absolute error bar chart, the model performance ranking (from most effective to least effective) is as follows: 2022 ANN model (MAE of 0.142), 2021 ANN model (MAE of 0.164), 2022 ANN model (MAE of 0.167), 2023 ANN model (MAE of 0.188). More extensive analysis of the artificial neural networks is conducted in Tableau. 
 
 ### Correlation Heatmap
 #### Methodology
@@ -32,12 +32,18 @@ Once clustering is complete, Principal Component Analysis is applied to reduce t
 #### Results 
 As aforemetioned, upon constructing the elbow charts for each year, it is evident that 4 clusters is optimal, as an "elbow" point occurs when k = 4. 
 
-
+The results depicted in the cluster charts in "KMeans PCA Clusters.pdf" are stored in "KMeans_Clusters.csv" in the "Python Generated Data" file of the repository. Here, countries are clustered based on similarity in terms of happiness, social, and economic indicators.
 
 ### Linear Regression
 #### Methodology
 Linear regression models are built for each year to quantify the linear impact of each indicator on happiness scores. After standardizing the input data, a model is trained and its coefficients are extracted. Evaluation metrics such as the R-squared value and mean squared error are computed to assess model performance. Furthermore, the predictive capability of these is visualized using scatter plots that compare actual versus predicted happiness scores, thus assessing model accuracy. These scatter plots can be found in "Linear Regression Graphs.pdf" of the "Python Graphical Input" file of the repository. 
 
+#### Results 
+In the linear regression graphs, the predictive capability of the linear regression models is measured in terms of how far the data points deviate from the identity line, which indicates a "perfect fit." Based on the results of the graphs, it is evident that the 2023 linear regression model harbors the best performance while the 2020 linear regression model performs the worst. More extensive analysis of the linear regression models is conducted in Tableau. 
+
 ### Random Forests
 #### Methodology
 To capture non-linear relationships and interaction effects among variables, Random Forest regression models are trained for each year. This ensemble learning method aggregates predictions from multiple decision trees and outputs a ranked list of feature importances based on their contribution to reducing error in the model. Furthermore, the importance scores are visualized in horizontal bar plots. These plots can be found in "Random Forest Importances.pdf" in the Python Graphical Output file. 
+
+#### Results
+In the Random Forest importances bar charts, it is evident that social support is the most significant factor contributing to happiness each year by an overwhelming margin. On a similar note, it is clear that logged GDP per capita is the second most important factor contributing to happiness. Other significant factors include freedom to make life choices, healthy life expectancy, and internet users. Additional analysis of the relationship between happiness score and various indicators is conducted in Tableau, using these findings as a basis. 
