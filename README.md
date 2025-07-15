@@ -104,15 +104,15 @@ Next, the Linear Regression: Values of Coefficients Over Time display changes in
 Lastly, the Linear Regression: Coefficient Highlight Table displays the value of each coefficient corresponding to each social and economic indicator each year. Furthermore, each coefficient value is color coded to help visualize its magnitude and direction. 
 
 ## Dictionary
-- Happiness score: A composite measure representing the overall subjective well-being of a population, based on average answers to the Cantril ladder question, where respondents rate their current lives on a scale from 0 (worst possible) to 10 (best possible).
-- Logged GDP per capita: The natural logarithm of the gross domestic product (GDP) per capita (in purchasing power parity, PPP, terms), used as a measure of the material standard of living.
-- Social support: The national average of responses to the Gallup World Poll question: “If you were in trouble, do you have relatives or friends you can count on to help you whenever you need them, or not?” Hence, reflecting perceived support systems.
-- Healthy life expectancy: The average number of years that a person can expect to live in good health, based on data from the World Health Organization. It reflects both quantity and quality of life.
-- Freedom to make life choices: The average national response to the Gallup World Poll question: “Are you satisfied or dissatisfied with your freedom to choose what you do with your life?” Hence, measuring perceived autonomy.
-- Generosity: The average response to the Gallup World Poll question: “Have you donated money to a charity in the past month?” Hence, serving as a proxy for prosocial behavior. 
-- Perceptions of corruption: The national average of responses to two Gallup questions: “Is corruption widespread throughout the government or not?” and “Is corruption widespread within businesses or not?” Hence, measuring perceived integrity in public and private institutions. 
-- Internet Users: The percentage of the population who have used the internet in the past 3 months, based on surveys or data from internet service providers (this includes access through any device, such as computers, mobile phones, or tablets). 
-- Education Expenditure: Public spending on education expressed as a percentage of GDP. 
-- Healthcare Expenditure: Public spending on healthcare expressed as a percentage of GDP. 
-- Unemployment Rate: The share of the labor force that is without work but available for and actively seeking employment during a specified reference period (measured as a percentage of the total labor force). 
-- Population in Urban Areas: The percentage of a country’s total population living in agglomerations of over 1 million people. 
+- **Happiness score:** A composite measure representing the overall subjective well-being of a population, based on average answers to the Cantril ladder question, where respondents rate their current lives on a scale from 0 (worst possible) to 10 (best possible).
+- **Logged GDP per capita:** The natural logarithm of the gross domestic product (GDP) per capita (in purchasing power parity, PPP, terms), used as a measure of the material standard of living.
+- **Social support:** The national average of responses to the Gallup World Poll question: “If you were in trouble, do you have relatives or friends you can count on to help you whenever you need them, or not?” Hence, reflecting perceived support systems.
+- **Healthy life expectancy:** The average number of years that a person can expect to live in good health, based on data from the World Health Organization. It reflects both quantity and quality of life.
+- **Freedom to make life choices:** The average national response to the Gallup World Poll question: “Are you satisfied or dissatisfied with your freedom to choose what you do with your life?” Hence, measuring perceived autonomy.
+- **Generosity:** The average response to the Gallup World Poll question: “Have you donated money to a charity in the past month?” Hence, serving as a proxy for prosocial behavior. 
+- **Perceptions of corruption:** The national average of responses to two Gallup questions: “Is corruption widespread throughout the government or not?” and “Is corruption widespread within businesses or not?” Hence, measuring perceived integrity in public and private institutions. 
+- **Internet Users:** The percentage of the population who have used the internet in the past 3 months, based on surveys or data from internet service providers (this includes access through any device, such as computers, mobile phones, or tablets). 
+- **Education Expenditure:** Public spending on education expressed as a percentage of GDP. 
+- **Healthcare Expenditure:** Public spending on healthcare expressed as a percentage of GDP. 
+- **Unemployment Rate:** The share of the labor force that is without work but available for and actively seeking employment during a specified reference period (measured as a percentage of the total labor force). 
+- **Population in Urban Areas:** The percentage of a country’s total population living in agglomerations of over 1 million people. 
