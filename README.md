@@ -14,7 +14,7 @@ This project investigates the relationship between world happiness scores and an
 ## Python Component 
 
 ### Data Wrangling
-In the data wrangling phase of this study, raw CSV files from the World Happiness Report and the World Bank are read into Pandas dataframes and a consistent structure is applied across all datasets. For the World Bank indicators, column names are standardized and reshaped to avoid naming conflicts during merging. Missing values are replaced with zeros for simplicity. The World Happiness data is similarly cleaned and merged by country name across all four years. Finally, the World Happiness and World Bank Indicator data are merged into a single master dataset to explore using various statistical and machine learning techniques in Pythob. Furthermore. a long-format version of the data is created to employ for Tableau usage. 
+In the data wrangling phase of this study, raw CSV files from the World Happiness Report and the World Bank are read into Pandas dataframes and a consistent structure is applied across all datasets. For the World Bank indicators, column names are standardized and reshaped to avoid naming conflicts during merging. Missing values are replaced with zeros for simplicity. The World Happiness data is similarly cleaned and merged by country name across all four years. Finally, the World Happiness and World Bank Indicator data are merged into a single master dataset to explore using various statistical and machine learning techniques in Python. Furthermore. a long-format version of the data is created to employ for Tableau usage. 
 
 ### Artificial Neural Networks 
 #### Methodology
